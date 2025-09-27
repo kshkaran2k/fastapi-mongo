@@ -1,0 +1,98 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Byte-compiled / cache
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ------------------------
+# FastAPI / Uvicorn
+# ------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.DS_Store
+
+# ------------------------
+# MongoDB dumps
+# ------------------------
+dump/
+*.bson
+*.json
+
+# ------------------------
+# PyCharm / JetBrains
+# ------------------------
+.idea/
+!.idea/codeStyles
+!.idea/runConfigurations
+
+# ------------------------
+# VSCode
+# ------------------------
+.vscode/
+
+# ------------------------
+# OS-specific
+# ------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# ------------------------
+# Testing / Coverage
+# ------------------------
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ------------------------
+# Docker
+# ------------------------
+*.pid
+*.seed
+*.pid.lock
+.envrc
